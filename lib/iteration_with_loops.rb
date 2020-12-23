@@ -14,11 +14,11 @@ def find_even_values(src)
       if src[row_index][element_index] % 2 == 0
         even_nums << src[row_index][element_index]
       end
-      
       element_index += 1
     end
-    
+    row_index += 1
   end
+  even_nums
 end
 
-even_nums
+
